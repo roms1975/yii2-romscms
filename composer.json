@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "roms\\cms\\": "src"
+            "roms1975\\yii2-romscms\\": "src"
         }
     },
     "repositories":[
