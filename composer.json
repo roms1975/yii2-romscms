@@ -15,7 +15,7 @@
         "yiisoft/yii2": "~2.0.0"
     },
     "extra": {
-	"bootstrap": "roms\\yii2-roms\\Bootstrap"
+	"bootstrap": "roms1975\\yii2-romscms\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
