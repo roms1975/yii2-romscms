@@ -15,13 +15,14 @@
         "yiisoft/yii2": "~2.0.0"
     },
     "extra": {
-	"bootstrap": "roms\\cms\\src;"
+	"bootstrap": "roms\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
-            "roms\\cms\\": "src"
+            "roms\\": "src"
         }
     },
+
     "repositories":[
         {
             "type": "git",

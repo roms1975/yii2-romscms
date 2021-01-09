@@ -1,9 +1,9 @@
 <?php
 
-namespace roms\cms;
+namespace roms;
 use yii\base\Module as BaseModule;
 
 class Module extends BaseModule
 {
-    public $controllerNamespace = 'roms\cms\controllers';
+    public $controllerNamespace = 'roms\controllers';
 }

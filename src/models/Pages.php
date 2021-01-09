@@ -1,11 +1,11 @@
 <?php
 
-namespace roms\cms\models;
+namespace roms\models;
 
 use yii\base\NotSupportedException;
 use yii\db\ActiveRecord;
 
-class Author extends ActiveRecord
+class Pages extends ActiveRecord
 {	
 	public function rules()
     {
