@@ -25,8 +25,8 @@
 
     "repositories":[
         {
-            "type": "path",
-	    "url": "/runtime/tmp-extensions/yii-roms"
+            "type": "git",
+	    "url": "https://github.com/roms1975/yii2-romscms.git"
         }
     ]
 }
