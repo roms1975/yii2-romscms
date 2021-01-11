@@ -14,6 +14,9 @@ class RomsUrlManager extends UrlManager
 		$pathInfo = $request->getPathInfo();
 		$path_arr = explode('/', $pathInfo);
 		$parent = 1;
+		
+		if (empty($pathInfo))
+			return ['cms/cms/index', []];
 
 		foreach ($path_arr as $alt_name) {
 

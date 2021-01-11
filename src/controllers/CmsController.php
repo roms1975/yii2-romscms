@@ -7,7 +7,7 @@ use roms\models\Pages;
 
 class CmsController extends Controller
 {
-    public function actionIndex($url = "")
+    public function actionIndex()
     {		
         // регистрируем ресурсы:
         \roms\CmsAssetsBundle::register($this->view);
