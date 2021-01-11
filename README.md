@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist roms/yii2-roms "*"
+php composer.phar require --prefer-dist roms1975/yii2-romscms "*"
 ```
 
 or add
 
 ```
-"roms/yii2-roms": "*"
+"roms1975/yii2-romscms": "*"
 ```
 
 to the require section of your `composer.json` file.
