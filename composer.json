@@ -23,8 +23,10 @@
             "roms\\": "src"
         }
     },
-    "config":"fxp-asset": {
-        "enabled": false
+    "config":{
+	    "fxp-asset": {
+                "enabled": false
+            }
     },
     "repositories":[
         {
