@@ -23,7 +23,9 @@
             "roms\\": "src"
         }
     },
-
+    "config":"fxp-asset": {
+        "enabled": false
+    },
     "repositories":[
         {
             "type": "git",
