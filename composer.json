@@ -27,11 +27,5 @@
 	    "fxp-asset": {
                 "enabled": false
             }
-    },
-    "repositories":[
-        {
-            "type": "git",
-	    "url": "https://github.com/roms1975/yii2-romscms.git"
-        }
-    ]
+    }
 }
