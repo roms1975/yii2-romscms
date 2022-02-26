@@ -27,5 +27,8 @@
 	    "fxp-asset": {
                 "enabled": false
             }
+    },
+    "scripts": {
+    	"post-package-install": "roms\\Installer::install"
     }
 }
