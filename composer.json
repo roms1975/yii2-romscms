@@ -25,6 +25,7 @@
             }
     },
     "scripts": {
-    	"post-package-install": "roms\\Installer::install"
+    	"post-package-install": "roms\\Installer::install",
+    	"echo It work!!!"
     }
 }
