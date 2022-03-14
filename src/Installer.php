@@ -1,12 +1,15 @@
 <?php 
 
   namespace roms;
+  
+  require_once(__DIR__ . "/../vendor/autoload.php");
 
   class Installer
   {
-    public function install() 
+    static public function install() 
     {
-      file_put_contents(__DIR__ . "/install.log", "It work!");
+		echo __DIR__ . "\n";
+		file_put_contents(__DIR__ . "/install.log", "It work!");
     }
   
   }
