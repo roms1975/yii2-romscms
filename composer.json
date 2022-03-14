@@ -29,7 +29,7 @@
             "echo It work!!!"
         ],
         "post-install-cmd": [
-            "roms\\Installer::install",
+            "roms\\Installer::install"
         ],
         "post-create-project-cmd": ["echo post create project cmd"]
     }
