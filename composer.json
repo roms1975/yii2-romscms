@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "stable",
     "extra": {
-	"bootstrap": "roms\\Bootstrap"
+        "bootstrap": "roms\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
@@ -21,16 +21,19 @@
     },
     "config":{
 	    "fxp-asset": {
-                "enabled": false
-            }
+            "enabled": false
+        }
     },
     "scripts": {
     	"post-package-install": [
-            "echo It work!!!"
+            "echo Ittt work!!!"
         ],
         "post-install-cmd": [
-            "roms\\Installer::install"
+        		"roms\\Installer::install",
         ],
-        "post-create-project-cmd": ["echo post create project cmd"]
+        "post-create-project-cmd": [
+            "echo post create project cmd",
+            "roms\\Installer::install"
+        ]
     }
 }
