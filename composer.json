@@ -43,7 +43,6 @@
             "roms\\Installer::install"
         ]
     },
-	,
     "repositories": [
         {
             "type": "composer",
